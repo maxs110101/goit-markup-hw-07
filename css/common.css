@@ -107,7 +107,7 @@ img {
 .logo-color {
   color: var(--web-logo-color);
 }
-/* -menu nav- */
+/* -menunav- */
 .top-navigation-list {
   display: flex;
   align-items: center;
