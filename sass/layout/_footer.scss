@@ -57,11 +57,10 @@
 }
 .socials__link {
   @extend %social-link;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
 }
-.socials-icon {
-  fill: currentColor;
+.socials__link--color-bottom {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
 }
 /* subscription */
 .subscription {

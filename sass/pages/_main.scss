@@ -115,7 +115,8 @@
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  // background-color: #ffffff;
+  background-color: #ffffff;
+  // background-color: transparent;
 }
 .team-list__content {
   padding-top: 30px;
@@ -144,18 +145,14 @@
   justify-content: center;
 }
 .socials__item {
-  width: 44px;
-  height: 44px;
-  & + & {
-    margin-left: 10px;
-  }
+  @extend %social-item;
 }
 .socials__link {
   @extend %social-link;
-  color: $social-icons-color;
 }
-.socials__icon {
-  fill: currentColor;
+.socials__link--color-team {
+  color: #ffffff;
+  fill: #afb1b8;
 }
 /* -clients- */
 .clients {
