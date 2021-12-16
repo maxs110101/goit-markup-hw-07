@@ -41,7 +41,8 @@
 }
 @each $advantage in antenna, clock, diagram, astronaut {
   .#{$advantage}-icon::before {
-    background-image: url('../../img/index/advantages-list/#{$advantage}.svg');
+    background-image: url('../../img/index/advantages-list/#{$advantage}.svg'),
+      url('../img/index/advantages-list/#{$advantage}.svg');
   }
 }
 /* -about- */

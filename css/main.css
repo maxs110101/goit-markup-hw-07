@@ -434,19 +434,19 @@ img {
 }
 
 .antenna-icon::before {
-  background-image: url("../../img/index/advantages-list/antenna.svg");
+  background-image: url("../../img/index/advantages-list/antenna.svg"), url("../img/index/advantages-list/antenna.svg");
 }
 
 .clock-icon::before {
-  background-image: url("../../img/index/advantages-list/clock.svg");
+  background-image: url("../../img/index/advantages-list/clock.svg"), url("../img/index/advantages-list/clock.svg");
 }
 
 .diagram-icon::before {
-  background-image: url("../../img/index/advantages-list/diagram.svg");
+  background-image: url("../../img/index/advantages-list/diagram.svg"), url("../img/index/advantages-list/diagram.svg");
 }
 
 .astronaut-icon::before {
-  background-image: url("../../img/index/advantages-list/astronaut.svg");
+  background-image: url("../../img/index/advantages-list/astronaut.svg"), url("../img/index/advantages-list/astronaut.svg");
 }
 
 /* -about- */
